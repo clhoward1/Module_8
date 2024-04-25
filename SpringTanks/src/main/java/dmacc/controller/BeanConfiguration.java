@@ -18,7 +18,7 @@ public class BeanConfiguration {
 		Tank bean = new Tank();
 		bean.setModelName("M4A2");
 		bean.setYearIntroduced(1942);
-		bean.setAmountMade(10000);
+		bean.setAmountMade(8053);
 		return bean;
 	}
 

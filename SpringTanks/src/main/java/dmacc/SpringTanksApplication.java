@@ -20,11 +20,6 @@ public class SpringTanksApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringTanksApplication.class, args);
-		
-		ApplicationContext appContext = new AnnotationConfigApplicationContext(BeanConfiguration.class);
-		Tank c = appContext.getBean("tank", Tank.class);
-		System.out.println(c.toString());
-		
 	}
 	
 	@Autowired
